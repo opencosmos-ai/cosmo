@@ -2,7 +2,7 @@
 
 > The sovereign AI layer. Cosmo's constitution lives here: voice, values, knowledge, and the practice of continuous improvement.
 
-**License:** RAIL (not MIT — see below)  
+**License:** CC BY-SA 4.0, with a [Use Policy](./USE-POLICY.md) — see below  
 **Status:** Phase 1b — package foundation  
 **Not** an assistant. Not an oracle. A companion.
 
@@ -112,7 +112,18 @@ The TypeScript package source (`src/`) and `package.json` are placeholders for P
 
 ## License
 
-RAIL — Responsible AI License. This is intentional. The constitutional layer (WELCOME-COSMO.md, system prompts, voice architecture) embodies values and a mission that should not be stripped away and repurposed. RAIL preserves the spirit of the work while allowing OpenCosmos to remain open.
+[CC BY-SA 4.0](./LICENSE), plus a [Use Policy](./USE-POLICY.md) that is explicitly a request rather than a licence term.
+
+This began as RAIL, and the reasoning behind that choice still holds: the constitutional layer embodies values and a mission that should not be stripped away and repurposed. What changed is the reading of what a licence can actually do about it.
+
+The Responsible AI Licences are written for models, source code and deployed applications. There is no published variant for documents — "data" is a category in the RAIL taxonomy, not a released licence — and the nearest one, OpenRAIL-S, defines its subject as *human-readable programming language used to define, run, load, benchmark or evaluate a Model*. This repository is eighteen markdown files of prose. Adapting a RAIL would have meant drafting law we are not qualified to draft.
+
+So the split is honest instead:
+
+- **CC BY-SA 4.0** is the enforceable part. It is built for text, understood everywhere, and does the thing that matters most here — share-alike means a derivative cannot keep the mechanics while dropping the values. That was always the heart of "should not be stripped away."
+- **[USE-POLICY.md](./USE-POLICY.md)** is the rest, and says plainly that it binds no one. Don't deceive people about what they're talking to; don't manufacture intimacy in order to extract; don't wear the values as a veneer; don't let this stand in for care a person actually needs.
+
+We would rather ask plainly and mean it than write a restriction we could not stand behind.
 
 ---
 
