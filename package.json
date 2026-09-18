@@ -1,0 +1,19 @@
+{
+  "name": "@opencosmos/cosmo",
+  "private": true,
+  "type": "module",
+  "description": "Cosmo's constitutional layer — system prompts, the triad, the kaizen practice",
+  "scripts": {
+    "embed": "tsx scripts/embed-kaizen.ts",
+    "embed:dry": "tsx scripts/embed-kaizen.ts --dry-run"
+  },
+  "dependencies": {
+    "@upstash/vector": "^1.2.3",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

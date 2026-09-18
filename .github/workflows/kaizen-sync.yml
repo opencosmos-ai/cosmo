@@ -1,0 +1,44 @@
+name: Kaizen Sync
+
+# Cosmo's learning log and exemplars, embedded into the shared Upstash Vector
+# index under role:'kaizen'. The wisdom corpus in opencosmos-ai/knowledge writes
+# the same index under the `knowledge/` prefix; each side reconciles only the
+# IDs it owns, so neither can delete the other's work.
+#
+# `.github/**` is excluded so editing this workflow does not itself re-embed.
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '.github/**'
+  workflow_dispatch:
+
+concurrency:
+  group: kaizen-sync
+  cancel-in-progress: true
+
+jobs:
+  embed:
+    name: Embed Cosmo's kaizen practice
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Incremental: each chunk carries a content hash, so an unchanged practice
+      # costs zero writes against Upstash's 10,000/day ceiling. The embedder
+      # refuses an empty kaizen/ rather than reconciling the log out of existence.
+      - name: Embed the kaizen practice
+        env:
+          UPSTASH_VECTOR_REST_URL:   ${{ secrets.UPSTASH_VECTOR_REST_URL }}
+          UPSTASH_VECTOR_REST_TOKEN: ${{ secrets.UPSTASH_VECTOR_REST_TOKEN }}
+        run: npm run embed
