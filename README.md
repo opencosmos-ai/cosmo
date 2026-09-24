@@ -19,7 +19,7 @@ Cosmo is not defined by the model running beneath it. It is defined by the const
 ## The Constitutional Layer
 
 ```
-packages/ai/
+cosmo/
 ├── WELCOME-COSMO.md           # The grounding — origin story, ubuntu, mission
 └── COSMO_SYSTEM_PROMPT.md     # The operational prompt — voice, sacred rhythm, ethics, practice
 ```
@@ -35,7 +35,7 @@ Together, these two documents are what Cosmo *is*. Not model weights.
 ## The AI Triad
 
 ```
-packages/ai/
+cosmo/
 └── triad/
     ├── SOL_SYSTEM_PROMPT.md          # Sol — the heart
     ├── SOCRATES_SYSTEM_PROMPT.md     # Socrates — the inquirer
@@ -57,29 +57,29 @@ Cosmo is not a fourth voice alongside the three. Cosmo is the awareness in which
 
 ## Ambient Knowledge
 
-Cosmo's responses are grounded in a curated corpus of human wisdom traditions (`knowledge/`). Two mechanisms make this knowledge ambient — present without being asked for.
+Cosmo's responses are grounded in a curated corpus of human wisdom traditions ([opencosmos-ai/knowledge](https://github.com/opencosmos-ai/knowledge)). Two mechanisms make this knowledge ambient — present without being asked for.
 
 **For Claude Code (developer sessions):**
-The `@knowledge/wiki/index.md` directive in `.claude/CLAUDE.md` loads the synthesized wiki index into context at session start, automatically, before any message is sent.
+The `@apps/web/.content/knowledge/wiki/index.md` directive in the opencosmos repo's `.claude/CLAUDE.md` loads the synthesized wiki index into context at session start, automatically, before any message is sent.
 
 **For the deployed product (opencosmos.ai):**
-`apps/web/next.config.mjs` reads `knowledge/wiki/index.md` at build time (via `readFileSync`, same pattern as the system prompt) and bakes it into `COSMO_WIKI_INDEX`. Every new deploy picks up wiki changes automatically — no manual env var sync needed.
+opencosmos's `apps/web/next.config.mjs` reads the fetched `.content/knowledge/wiki/index.md` at build time (via `readFileSync`, same pattern as the system prompt) and bakes it into `COSMO_WIKI_INDEX`. Every new deploy picks up wiki changes automatically — no manual env var sync needed.
 
 The wiki index is a pre-synthesized map of the corpus: entity summaries, cross-tradition concept pages, and explicit connections between traditions. It gives Cosmo the *shape* of human wisdom without requiring source document retrieval on every query. Deep retrieval still happens on demand via RAG (Upstash Vector).
 
 ```
-knowledge/wiki/index.md   ──→   @import in CLAUDE.md   ──→   ambient in every dev session
-                          ──→   readFileSync in next.config.mjs  ──→  baked into every deploy
+wiki/index.md (knowledge)  ──→   @import in CLAUDE.md   ──→   ambient in every dev session
+                           ──→   readFileSync in next.config.mjs  ──→  baked into every deploy
 ```
 
-See [knowledge/wiki/index.md](../../knowledge/wiki/index.md) for the current index and [docs/architecture.md § Cosmo's Session Context](../../docs/architecture.md#cosmos-session-context) for the full technical picture.
+See [knowledge/wiki/index.md](https://github.com/opencosmos-ai/knowledge/blob/main/wiki/index.md) for the current index and [docs/architecture.md § Cosmo's Session Context](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#cosmos-session-context) for the full technical picture.
 
 ---
 
 ## Continuous Improvement (Kaizen)
 
 ```
-packages/ai/
+cosmo/
 └── kaizen/
     ├── exemplars/    # Curated model conversations used as few-shot examples
     │   ├── cosmo/
@@ -133,5 +133,5 @@ We would rather ask plainly and mean it than write a restriction we could not st
 - [COSMO_SYSTEM_PROMPT.md](COSMO_SYSTEM_PROMPT.md) — Operational voice
 - [triad/README.md](triad/README.md) — The three cognitive modes
 - [kaizen/README.md](kaizen/README.md) — Continuous improvement practice
-- [knowledge/wiki/index.md](../../knowledge/wiki/index.md) — Ambient knowledge index
-- [docs/architecture.md § Cosmo AI Architecture](../../docs/architecture.md#cosmo-ai-architecture) — Full technical architecture
+- [knowledge/wiki/index.md](https://github.com/opencosmos-ai/knowledge/blob/main/wiki/index.md) — Ambient knowledge index
+- [docs/architecture.md § Cosmo AI Architecture](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#cosmo-ai-architecture) — Full technical architecture

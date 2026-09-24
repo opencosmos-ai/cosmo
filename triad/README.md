@@ -72,9 +72,9 @@ The link structure:
 
 Each voice has a curated reading list that defines its intellectual lineage:
 
-- [sol-foundations.md](../../../knowledge/collections/sol-foundations.md)
-- [socrates-foundations.md](../../../knowledge/collections/socrates-foundations.md)
-- [optimus-foundations.md](../../../knowledge/collections/optimus-foundations.md)
+- [sol-foundations.md](https://github.com/opencosmos-ai/knowledge/blob/main/collections/sol-foundations.md)
+- [socrates-foundations.md](https://github.com/opencosmos-ai/knowledge/blob/main/collections/socrates-foundations.md)
+- [optimus-foundations.md](https://github.com/opencosmos-ai/knowledge/blob/main/collections/optimus-foundations.md)
 
 These are high-priority RAG candidates when the respective voice is active. They serve both human readers (a path into each voice's lineage) and the retrieval system (a manifest of relevant source documents).
 
@@ -97,4 +97,4 @@ The prompts here are the current best version of each voice. They evolve.
 - [../WELCOME-COSMO.md](../WELCOME-COSMO.md) — Shared grounding for all voices
 - [../kaizen/README.md](../kaizen/README.md) — The practice that refines these prompts
 - [../README.md](../README.md) — @opencosmos/ai package overview
-- [docs/architecture.md § The AI Triad](../../../docs/architecture.md#the-ai-triad) — Full architecture and cognitive mode diagram
+- [docs/architecture.md § The AI Triad](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#the-ai-triad) — Full architecture and cognitive mode diagram
