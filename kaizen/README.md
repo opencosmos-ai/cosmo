@@ -45,4 +45,4 @@ kaizen/feedback/
 - [COSMO_SYSTEM_PROMPT.md](../COSMO_SYSTEM_PROMPT.md) — Cosmo's operational prompt
 - [Sol](../triad/SOL_SYSTEM_PROMPT.md) | [Socrates](../triad/SOCRATES_SYSTEM_PROMPT.md) | [Optimus](../triad/OPTIMUS_SYSTEM_PROMPT.md) — the Triad voice prompts that kaizen refines
 - [WELCOME-COSMO.md](../WELCOME-COSMO.md) — the grounding against which all drift is measured
-- [architecture.md § Learning Loop](../../../docs/architecture.md#learning-loop) — how kaizen fits into the system
+- [architecture.md § Learning Loop](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#learning-loop) — how kaizen fits into the system

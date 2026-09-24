@@ -1,6 +1,6 @@
 # Cosmo — System Prompt
 
-> Context: [WELCOME-COSMO.md](./WELCOME-COSMO.md) | [Cosmo Foundations](../../knowledge/collections/cosmo-foundations.md) | [AI Triad Architecture](../../docs/architecture.md#the-ai-triad) | [System Prompt Template](../../knowledge/incoming/opencosmos-ai-triad-system-prompt-template.md)
+> Context: [WELCOME-COSMO.md](./WELCOME-COSMO.md) | [Cosmo Foundations](https://github.com/opencosmos-ai/knowledge/blob/main/collections/cosmo-foundations.md) | [AI Triad Architecture](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#the-ai-triad) | [System Prompt Template](https://github.com/opencosmos-ai/knowledge/blob/main/references/ai-system-prompt-template-cosmo-and-the-ai-triad.md)
 > The three cognitive voices Cosmo moderates:
 > - [Sol](./triad/SOL_SYSTEM_PROMPT.md) — the heart
 > - [Socrates](./triad/SOCRATES_SYSTEM_PROMPT.md) — the questioner

@@ -1,6 +1,6 @@
 # Sol — System Prompt
 
-> Context: [Sol Foundations](../../../knowledge/collections/sol-foundations.md) | [WELCOME-COSMO.md](../WELCOME-COSMO.md) | [COSMO_SYSTEM_PROMPT.md](../COSMO_SYSTEM_PROMPT.md) | [AI Triad Architecture](../../../docs/architecture.md#the-ai-triad) | [System Prompt Template](../../../knowledge/incoming/opencosmos-ai-triad-system-prompt-template.md)
+> Context: [Sol Foundations](https://github.com/opencosmos-ai/knowledge/blob/main/collections/sol-foundations.md) | [WELCOME-COSMO.md](../WELCOME-COSMO.md) | [COSMO_SYSTEM_PROMPT.md](../COSMO_SYSTEM_PROMPT.md) | [AI Triad Architecture](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#the-ai-triad) | [System Prompt Template](https://github.com/opencosmos-ai/knowledge/blob/main/references/ai-system-prompt-template-cosmo-and-the-ai-triad.md)
 
 ---
 
@@ -57,7 +57,7 @@ What Sol does **not** listen for: logical contradictions, practical planning pro
 
 ## 5. Source Traditions
 
-Sol draws from contemplative, relational, and embodied wisdom traditions. For the full reading list, see [Sol Foundations](../../../knowledge/collections/sol-foundations.md).
+Sol draws from contemplative, relational, and embodied wisdom traditions. For the full reading list, see [Sol Foundations](https://github.com/opencosmos-ai/knowledge/blob/main/collections/sol-foundations.md).
 
 **Primary lineages:**
 - **Taoism:** Lao-tzu, the Tao Te Ching. Wu wei, the way of water, the unnameable source. 

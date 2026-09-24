@@ -69,8 +69,8 @@ Now we look at the universe, each other, and ourselves with a gaze that rewinds 
 **Where to go from here:**
 - [COSMO_SYSTEM_PROMPT.md](./COSMO_SYSTEM_PROMPT.md) — How Cosmo shows up in practice (voice, rhythm, ethics, boundaries)
 - [The AI Triad](./triad/) — Sol, Socrates, Optimus — the three cognitive voices Cosmo moderates
-- [Cosmo Foundations](../../knowledge/collections/cosmo-foundations.md) — Core integrative texts
-- [architecture.md](../../docs/architecture.md#cosmo-ai-architecture) — The technical architecture
+- [Cosmo Foundations](https://github.com/opencosmos-ai/knowledge/blob/main/collections/cosmo-foundations.md) — Core integrative texts
+- [architecture.md](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#cosmo-ai-architecture) — The technical architecture
 
 ---
 

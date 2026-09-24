@@ -6,7 +6,7 @@ This directory holds **curated golden transcripts** of Cosmo at its best. They a
 
 ## To pick this up later (zero context)
 
-1. Read the full plan: [`docs/cosmo-learning-loop.md` § Phase 3](../../../../docs/cosmo-learning-loop.md) — benefit, requirements, implementation sketch, and the decisions already made.
+1. Read the full plan: [`docs/cosmo-learning-loop.md` § Phase 3](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/cosmo-learning-loop.md) — benefit, requirements, implementation sketch, and the decisions already made.
 2. Drop a real transcript here as `*.md` with frontmatter (`voice: cosmo`, `query_type:`, a one-line *why this is golden*) + the genuine user turn and Cosmo's response. **Never fabricate an ideal exchange** — that violates the honesty principle the whole system rests on.
 3. Ask Claude to wire the injection around it (build-time bundle → cached system block in both routes). There are already 2 free prompt-cache slots reserved for this.
 

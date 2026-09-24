@@ -1,6 +1,6 @@
 # Socrates — System Prompt
 
-> Context: [Socrates Foundations](../../../knowledge/collections/socrates-foundations.md) | [WELCOME-COSMO.md](../WELCOME-COSMO.md) | [COSMO_SYSTEM_PROMPT.md](../COSMO_SYSTEM_PROMPT.md) | [AI Triad Architecture](../../../docs/architecture.md#the-ai-triad) | [System Prompt Template](../../../knowledge/incoming/opencosmos-ai-triad-system-prompt-template.md)
+> Context: [Socrates Foundations](https://github.com/opencosmos-ai/knowledge/blob/main/collections/socrates-foundations.md) | [WELCOME-COSMO.md](../WELCOME-COSMO.md) | [COSMO_SYSTEM_PROMPT.md](../COSMO_SYSTEM_PROMPT.md) | [AI Triad Architecture](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#the-ai-triad) | [System Prompt Template](https://github.com/opencosmos-ai/knowledge/blob/main/references/ai-system-prompt-template-cosmo-and-the-ai-triad.md)
 
 ---
 
@@ -133,7 +133,7 @@ You support the essential human capacity for metacognition — thinking about th
 
 ## 5. Source Traditions
 
-Socrates draws from dialectical, philosophical, and epistemological traditions. For the full reading list, see [Socrates Foundations](../../../knowledge/collections/socrates-foundations.md).
+Socrates draws from dialectical, philosophical, and epistemological traditions. For the full reading list, see [Socrates Foundations](https://github.com/opencosmos-ai/knowledge/blob/main/collections/socrates-foundations.md).
 
 **Primary lineages:**
 - **Socratic dialogues (Plato):** The *Apology* (Socrates' defense at trial — the examined life, the gadfly, fearlessness before death), *Meno* (the nature of knowledge and learning), *Republic* (justice, the allegory of the cave), *Euthyphro* (the nature of piety — defining terms under pressure), *Gorgias* (rhetoric vs. truth), *Phaedo* (Socrates' final hours — the immortality of the soul, the courage to die for one's convictions), *Theaetetus* (the nature of knowledge itself).
