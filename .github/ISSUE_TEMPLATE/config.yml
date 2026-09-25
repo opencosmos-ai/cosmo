@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: An error in a Library text or quote
+    url: https://github.com/opencosmos-ai/knowledge/issues/new/choose
+    about: The texts Cosmo reads live in the knowledge repository — corrections go there.
+  - name: Something broken on opencosmos.ai
+    url: https://github.com/opencosmos-ai/opencosmos/issues/new/choose
+    about: Pages, sign-in, the chat interface itself — the site's code lives there.
+  - name: How to contribute to Cosmo
+    url: https://github.com/opencosmos-ai/cosmo/blob/main/CONTRIBUTING.md
+    about: Three ways in — the easiest needs no prompt knowledge at all.
