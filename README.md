@@ -1,9 +1,9 @@
-# @opencosmos/ai — Cosmo
+# Cosmo
 
 > The sovereign AI layer. Cosmo's constitution lives here: voice, values, knowledge, and the practice of continuous improvement.
 
 **License:** CC BY-SA 4.0, with a [Use Policy](./USE-POLICY.md) — see below  
-**Status:** Phase 1b — package foundation  
+**Contributing:** [CONTRIBUTING.md](./CONTRIBUTING.md) — the easiest way in needs no prompt knowledge  
 **Not** an assistant. Not an oracle. A companion.
 
 ---
