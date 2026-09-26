@@ -55,6 +55,17 @@ Cosmo is not a fourth voice alongside the three. Cosmo is the awareness in which
 
 ---
 
+## Modules
+
+```
+└── modules/
+    └── XENSO_MODULE.md   # Xensō — the quest-guide discipline for the game
+```
+
+A module is loaded on top of the system prompt when a request arrives from a particular surface, and changes what Cosmo is doing without changing who Cosmo is. [XENSO_MODULE.md](modules/XENSO_MODULE.md) is injected when a request carries `xensoMode` — today from [opencosmos.ai/xenso](https://opencosmos.ai/xenso), and, once it is built, from the Xensō iOS app through the same server. The game's design canon lives in its own repository.
+
+---
+
 ## Ambient Knowledge
 
 Cosmo's responses are grounded in a curated corpus of human wisdom traditions ([opencosmos-ai/knowledge](https://github.com/opencosmos-ai/knowledge)). Two mechanisms make this knowledge ambient — present without being asked for.
