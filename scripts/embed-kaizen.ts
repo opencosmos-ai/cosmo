@@ -64,8 +64,11 @@ function loadEnv(envPath: string) {
   }
 }
 
-loadEnv(join(ROOT_DIR, 'apps', 'web', '.env'))
-loadEnv(join(ROOT_DIR, 'apps', 'web', '.env.local'))
+// The repository root, as in opencosmos-ai/knowledge's embedder. This read
+// apps/web/ until 2026-09-25 — a monorepo path that has not existed here since
+// the split, so a local .env was silently never loaded.
+loadEnv(join(ROOT_DIR, '.env'))
+loadEnv(join(ROOT_DIR, '.env.local'))
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -377,7 +380,7 @@ function buildChunks(filePath: string): VectorChunk[] {
 // ─── Kaizen chunk builder ─────────────────────────────────────────────────────
 
 /**
- * Kaizen files (packages/ai/kaizen) — the feedback/notes.md learning log and any
+ * Kaizen files (kaizen/) — the feedback/notes.md learning log and any
  * exemplars — are chunked exactly like corpus docs, then tagged role:'kaizen' so
  * rag.ts renders them under "Your Learning Log" instead of "Retrieved Passages".
  * This keeps Cosmo's own incident log and exemplars out of the wisdom-corpus
@@ -460,7 +463,7 @@ async function main() {
 
   if (!vectorUrl || !vectorToken) {
     console.error('❌ Missing UPSTASH_VECTOR_REST_URL or UPSTASH_VECTOR_REST_TOKEN')
-    console.error('   Add them to apps/web/.env.local and Vercel environment variables.')
+    console.error('   Add them to .env.local at the root of this repository, or export them in the shell.')
     process.exit(1)
   }
 

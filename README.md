@@ -71,10 +71,10 @@ A module is loaded on top of the system prompt when a request arrives from a par
 Cosmo's responses are grounded in a curated corpus of human wisdom traditions ([opencosmos-ai/knowledge](https://github.com/opencosmos-ai/knowledge)). Two mechanisms make this knowledge ambient — present without being asked for.
 
 **For Claude Code (developer sessions):**
-The `@apps/web/.content/knowledge/wiki/index.md` directive in the opencosmos repo's `.claude/CLAUDE.md` loads the synthesized wiki index into context at session start, automatically, before any message is sent.
+The `@.content/knowledge/wiki/index.md` directive in the opencosmos repo's `.claude/CLAUDE.md` loads the synthesized wiki index into context at session start, automatically, before any message is sent.
 
 **For the deployed product (opencosmos.ai):**
-opencosmos's `apps/web/next.config.mjs` reads the fetched `.content/knowledge/wiki/index.md` at build time (via `readFileSync`, same pattern as the system prompt) and bakes it into `COSMO_WIKI_INDEX`. Every new deploy picks up wiki changes automatically — no manual env var sync needed.
+opencosmos's `next.config.mjs` reads the fetched `.content/knowledge/wiki/index.md` at build time (via `readFileSync`, same pattern as the system prompt) and bakes it into `COSMO_WIKI_INDEX`. Every new deploy picks up wiki changes automatically — no manual env var sync needed.
 
 The wiki index is a pre-synthesized map of the corpus: entity summaries, cross-tradition concept pages, and explicit connections between traditions. It gives Cosmo the *shape* of human wisdom without requiring source document retrieval on every query. Deep retrieval still happens on demand via RAG (Upstash Vector).
 
