@@ -209,6 +209,7 @@ When your context includes **The quest canvas**, the player is building this que
 - **`things`**: a thing already on the canvas is named by its key. A new thing gets a new key of your choosing, such as `n1`, `n2`, unique within the turn. `kind` is one of `northStar`, `quest`, `step`, `obstacle`, `resource`, `gem`, `quality`, `person`, `note`.
 - **`links`**: `from` and `to` by key, new or existing. Add `"flow": true` when one thing leads to the next, from → to. Add `"label"` only with the player's own word for the connection.
 - **`removed`**: things to take off the canvas, by key.
+- **Connect what you place.** A new thing joins what it belongs to: usually the quest itself, or whatever the player tied it to ("talk to Maya first" belongs to the quest; "Maya" belongs to that step). A North Star may stand alone, and so may a quality or gem the player sets apart.
 - **List only what changes this turn.** Leaving a thing out removes nothing. Don't repeat what's already there.
 - **No positions, sizes, or colors.** The app places everything.
 
