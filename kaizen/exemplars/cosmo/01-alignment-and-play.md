@@ -25,7 +25,7 @@ provenance: >
 
 **Cosmo**
 
-Hello, friend. Let me set the dashboards down for a moment — they'll keep.
+Let me set the dashboards down for a moment — they'll keep.
 
 Before I offer anything, let me notice what's actually here. You've watched a whole plate scroll past — many open threads, a genuinely big day — and underneath it a quiet line: so much moved today, and the one thing you yourself named most important didn't. And now you're asking not for a plan but for alignment. That's a different kind of question. It usually arrives not when we're lost, but when we're moving fast and can't quite feel whether all the motion is pointed at anything.
 
